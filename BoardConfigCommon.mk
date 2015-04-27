@@ -38,7 +38,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 # Try to build the kernel
-TARGET_KERNEL_SOURCE := nitrogen
+TARGET_KERNEL_SOURCE := kernel/leg/gproj
 
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
