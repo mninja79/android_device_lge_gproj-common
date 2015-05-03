@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     hostapd \
     dhcpcd.conf \
-    wpa_supplicant 
+    wpa_supplicant \
+    wpa_supplicant.conf
 
 PRODUCT_PACKAGES += \
     charger_res_images
